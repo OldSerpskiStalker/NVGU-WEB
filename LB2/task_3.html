@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="task_3.css" />
+</head>
+
+<body>
+    <h1>Таблицы в HTML</h1>
+
+    <p class="with-indent-p1">
+        <span style="background-color: #00ffff; color: #000000;">
+            Одним из наиболее мощных и широко применяемых в 
+            <strong>HTML</strong> 
+            средств являются 
+            <em>ТАБЛИЦЫ</em>.
+        </span>
+    </p>
+    
+    <p class="with-indent-p2"> 
+        <span style="background-color: yellow;">
+            Понятие табличного представления данных не нуждается в дополнительном пояснении. 
+        </span>
+        <span style="background-color: rgb(160, 160, 138);">
+            В HTML таблицы используются не только традиционно, как метод представления данных, но и как средство форматирования Web-страниц.
+        </span>
+    </p>
+
+    <p class="with-indent-p3">
+        <span>
+            Создание простейших HTML-таблиц
+        </span>
+    </p>
+
+    <p class="text-size-p4">
+        <span class="highlight-description">Описание</span> 
+        <span class="underline">Таблиц</span> 
+        <span class="underline_d">должно</span> 
+        <span>располагаться внутри раздела документа</span>
+        <span class="body-tag">&lt;ВODY&gt;.</span> 
+    </p>
+
+    <p class="text-size-p5">
+        <span>
+            Каждая 
+            <span style="color:blue; text-decoration: underline;">таблица</span> 
+            <span>должна</span> 
+            <span style="font-size: 145%;">начинаться</span>
+            тэгом <ТABLE> и завершаться тэгом <ТABLE>.
+        </span>
+    </p>
+
+    <p class="text-decor-p6"> 
+        <span style="background-color: darkgray">
+            <span style="color:blue; font-size: 18px; font-weight: bold; font-style: italic;">Каждая</span> 
+            <span>строка начинается тэгом <ТR> (Table Row) и завершается тэгом </ТR>.</span>
+            <span style="color:red; font-size: 18px; font-style: italic; font-weight: bold;">Отдельная</span> 
+            <span>ячейка в строке обрамляется парой тегов <ТD> и </ТD> (Table Data) или <ТH> и </ТH> (Table Header)</span>
+        </span>
+    </p>
+
+    <p style="text-indent: 80%; font-size: 20px;">
+        <span>Таблица 1</span>
+    </p>
+
+    <p style="text-indent: 10%; font-size: 23px; font-style: italic; text-align: center; color: blue; font-family: 'Times New Roman', Times, serif; text-decoration: line-through; font-weight: bold;">
+        <span>Математические выражения</span>
+    </p>
+
+    <table style="height: 15px; width: 650px; margin-right: auto;" border="5" cellspacing="0">
+        <tbody>
+            <tr>
+                <td style="width: 72px; font-family: 'Courier New', Courier, monospace; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><em>Поле1</em></td>
+                <td style="width: 73px; background-color: #000000; color: white; font-size: 19px; text-align: center; font-weight: bold;">Поле 2</td>
+                <td style="width: 70px; background-color: #00ffff; color: #0000ff; font-size: 19px; font-weight: bold; text-align: right;">Поле3</td>
+                <td style="width: 102.766px; background-color:#cc99ff; font-size: 16px; font-weight: bolder; font-style: italic; text-decoration: underline;">Поле4</td>
+                <td style="width: 71.2344px; background-color: #ffff00; text-align: center; letter-spacing: 5px; font-weight: bold;">Поле5</td>
+            </tr>
+            <tr>
+                <td style="width: 72px; color:#0000ff; text-align: left; font-weight: bold;">(a+b)<sup>2</sup></td>
+                <td style="width: 73px; text-align: center; font-weight: bold;">a<sup>2</sup>-b<sup>2</sup></td>
+                <td style="width: 70px; color:#0000ff; text-align: right; font-weight: bold;">(a-b)<sup>3</sup></td>
+                <td style="width: 102.766px; text-align: center; font-weight: bold;">A<sub>1</sub>+A<sub>2</sub>+...+A<sub>i</sub></td>
+                <td style="width: 71.2344px; color:#0000ff; text-align: center; font-weight: bold;">y=x<sup>2</sup></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

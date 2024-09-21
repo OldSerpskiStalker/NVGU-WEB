@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+    <style>
+        /* Стили для таблицы */
+        table.table_1_style 
+        {
+            width: 100%; /* Ширина таблицы 100% от родителя */
+            border-collapse: collapse; /* Убирает двойные границы между ячейками */
+            border-spacing: 0; /* Убирает отступы между ячейками */
+            height: auto; /* Высота таблицы автоматически подстраивается */
+        }
+
+        /* Стили для границ таблицы и ячеек */
+        table.table_1_style, table.table_1_style td, table.table_1_style th 
+        {
+            border: 1px solid #595959; /* Граница ячеек серого цвета */
+        }
+
+        /* Стили для ячеек и заголовков */
+        table.table_1_style td, table.table_1_style th 
+        {
+            padding: 3px; /* Отступы внутри ячеек */
+            width: 30px; /* Ширина ячеек */
+            height: 35px; /* Высота ячеек */
+        }
+
+        /* Стили для заголовков таблицы */
+        table.table_1_style th 
+        {
+            background: #347c99; /* Цвет фона заголовка */
+            color: #fff; /* Цвет текста заголовка */
+            font-weight: normal; /* Нормальная жирность текста */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Таблица с классом table_1_style -->
+<table class="table_1_style">
+    <tbody>
+        <tr>
+            <td colspan="5"></td> <!-- Ячейка, объединяющая 5 столбцов -->
+        </tr>
+        <tr>
+            <td rowspan="3"></td> <!-- Ячейка, объединяющая 3 строки -->
+            <td></td>
+            <td rowspan="3"></td> <!-- Ячейка, объединяющая 3 строки -->
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td> <!-- Ячейка, объединяющая 3 строки -->
+            <td rowspan="3"></td> <!-- Ячейка, объединяющая 3 строки -->
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

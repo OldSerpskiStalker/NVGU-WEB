@@ -1,0 +1,64 @@
+body 
+{
+    font-family: Arial, sans-serif; /* Шрифт для всего документа */
+    margin: 20px; /* Отступы вокруг страницы */
+    background-color: #f9f9f9; /* Цвет фона */
+}
+
+.form-container 
+{
+    max-width: 500px; /* Максимальная ширина формы */
+    margin: auto; /* Центрирование формы */
+    padding: 20px; /* Отступы внутри формы */
+    border: 1px solid #ccc; /* Граница формы */
+    border-radius: 5px; /* Закругление углов */
+    background-color: #fff; /* Цвет фона формы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для формы */
+}
+
+h1 
+{
+    text-align: center; /* Центрирование заголовка */
+    color: #347c99; /* Цвет заголовка */
+}
+
+label 
+{
+    display: block; /* Блоковое отображение меток */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="url"],
+textarea,
+select,
+input[type="file"] 
+{
+    width: 100%; /* Ширина полей ввода */
+    padding: 8px; /* Отступы внутри полей */
+    margin-top: 5px; /* Отступ сверху */
+    border: 1px solid #ccc; /* Граница полей */
+    border-radius: 4px; /* Закругление углов */
+}
+
+.button-group 
+{
+    margin-top: 15px; /* Отступ сверху для кнопок */
+}
+
+button 
+{
+    padding: 10px 15px; /* Отступы внутри кнопки */
+    margin-right: 10px; /* Отступ справа */
+    background-color: #347c99; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 4px; /* Закругление углов кнопки */
+    cursor: pointer; /* Курсор при наведении */
+}
+
+button:hover 
+{
+    background-color: #298080; /* Цвет кнопки при наведении */
+}

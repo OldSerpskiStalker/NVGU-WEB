@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации сайта</title>
+    <link rel="stylesheet" href="style_2_3_1.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h1>Форма регистрации сайта</h1>
+    <form>
+        <label for="login">Логин:</label>
+        <input type="text" id="login" name="login" required>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="url">URL-адрес сайта:</label>
+        <input type="url" id="url" name="url" placeholder="http://" required>
+
+        <label for="site-name">Название сайта:</label>
+        <input type="text" id="site-name" name="site-name" required>
+
+        <label for="description">Описание сайта:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+
+        <label for="theme">Тема сайта:</label>
+        <select id="theme" name="theme" required>
+            <option value="">Тема не выбрана</option>
+            <option value="тема1">Тема 1</option>
+            <option value="тема2">Тема 2</option>
+            <option value="тема3">Тема 3</option>
+        </select>
+
+        <label for="banner">Баннер:</label>
+        <input type="file" id="banner" name="banner" accept="image/*">
+
+        <div class="button-group">
+            <button type="reset">Очистить</button>
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

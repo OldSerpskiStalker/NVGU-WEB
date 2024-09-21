@@ -1,0 +1,75 @@
+h1
+{
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.with-indent-p1
+{
+    font-size: 18px;
+    text-indent: 75px;
+}
+
+.with-indent-p2
+{
+    font-size: 19px;
+    text-indent: 145px;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.with-indent-p3
+{
+    color:blueviolet;
+    font-size: 28px;
+    text-align: left;
+    font-weight: 750;
+}
+
+.highlight-description 
+{
+    font-size: 19px;
+    background-color: violet;
+    font-style: italic;
+    font-weight: 1000;
+}
+
+.underline 
+{
+    font-size: 19px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+}
+
+.underline_d 
+{
+    font-size: 19px;
+    text-decoration: underline;
+    font-family: "Times New Roman", serif;
+}
+
+.body-tag 
+{
+    font-size: 19px;
+    font-family: "Times New Roman", serif;
+}
+
+.text-size-p4
+{
+    font-size: 19px;
+}
+
+.text-size-p5
+{
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+}
+
+.text-decor-p6
+{
+    text-indent: 25px;
+    line-height: 1.11; 
+}

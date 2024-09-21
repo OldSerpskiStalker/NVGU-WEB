@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица с цветами</title>
+    <style>
+        table.iksweb 
+        {
+            width: 50%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            height: 80%;
+        }
+
+        table.iksweb, table.iksweb td, table.iksweb th 
+        {
+            border: 1px solid #595959;
+        }
+
+        table.iksweb td 
+        {
+            padding: 80px
+        }
+        
+        /* Цвета для ячеек */
+        .beruzovy { background: #40E0D0; } /* Берюзовый */
+        .svetlo_zhelty { background: #FFFFE0; } /* Светло-желтый */
+        .krasny { background: #FF0000; } /* Красный */
+        .siniy { background: #0000FF; } /* Синий */
+        .zeleny { background: #008000; } /* Зеленый */
+        .zhelty { background: #FFFF00; } /* Желтый */
+    </style>
+</head>
+<body>
+
+<table class="iksweb">
+    <tbody>
+        <tr>
+            <td colspan="8" class="beruzovy"></td> <!-- Берюзовый -->
+        </tr>
+        <tr>
+            <td rowspan="6" class="svetlo_zhelty"></td> <!-- Светло-желтый -->
+            <td colspan="6" class="beruzovy"></td> <!-- Берюзовый -->
+            <td rowspan="6" class="svetlo_zhelty"></td> <!-- Светло-желтый -->
+        </tr>
+        <tr>
+            <td rowspan="4" class="svetlo_zhelty"></td> <!-- Светло-желтый -->
+            <td colspan="4" class="beruzovy"></td> <!-- Берюзовый -->
+            <td rowspan="4" class="svetlo_zhelty"></td> <!-- Светло-желтый -->
+        </tr>
+        <tr>
+            <td rowspan="2" class="svetlo_zhelty"></td> <!-- Светло-желтый -->
+            <td class="krasny"></td> <!-- Красный -->
+            <td class="siniy"></td> <!-- Синий -->
+            <td rowspan="2" class="svetlo_zhelty"></td> <!-- Светло-желтый -->
+        </tr>
+        <tr>
+            <td class="zeleny"></td> <!-- Зеленый -->
+            <td class="zhelty"></td> <!-- Желтый -->
+        </tr>
+        <tr>
+            <td colspan="4" class="beruzovy"></td> <!-- Берюзовый -->
+        </tr>
+        <tr>
+            <td colspan="6" class="beruzovy"></td> <!-- Берюзовый -->
+        </tr>
+        <tr>
+            <td colspan="8" class="beruzovy"></td> <!-- Берюзовый -->
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
